@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .left {
+            font-size: 1.5em;
+            color: #fff;
+        }
+
+        nav {
+            background-color: rgb(55, 113, 221);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 65px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: aqua;
+            /* font-size: 1.05rem; */
+        }
+
+        .main {
+            width: 100%;
+            height: 745px;
+        }
+
+        .main .card-container {
+            width: 1000px;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin:10px 150px 0 150px ;
+            /* height: 600px; */
+        }
+        .card-container .skills-card{
+            box-shadow: 0 0 10px 3px lightgrey;
+            background-color: #fff;
+            padding: 50px 40px;
+            width: 22%;
+            margin: 10px 0;
+        }
+        
+        .skills-card:hover {
+            transform: scale3d(1.010, 1.010, 1);
+            background-color: #ffffff75;
+        }
+
+         .htmlImg{
+            height: 150px;
+        }
+         .cssImg{
+            height: 150px;
+        }
+         .jsImg{
+            height: 150px;
+        }
+         .bootstrapImg{
+            height: 150px;
+        }
+         .gitImg{
+            height: 150px;
+        }
+         .mysqlImg{
+            height: 150px;
+        }
+         .springbootImg{
+            height: 150px;
+        }
+         .javaImg{
+            height: 150px;
+        }
+        
+        .heading{
+            text-align: center;
+            margin: 10px 20px 10px 0;
+        }
+    </style>
+    <title>My Skills</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mangal's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="heading">
+    <h1>My Skills</h1>
+</div>
+    <div class="main">
+        <div class="card-container">
+            <div class="skills-card" htmlImg>
+                <img class="htmlImg" src="/Images/html.png" alt="html card image">
+            </div>
+            <div class="skills-card ">
+                <img class="cssImg" src="Images/css.png" alt="css card image">
+
+            </div>
+            <div class="skills-card ">
+                <img class="bootstrapImg" src="Images/bootstrap.png" alt="html card image">
+
+            </div>
+            <div class="skills-card ">
+                <img class="jsImg" src="Images/js.png" alt="html card image">
+
+            </div>
+            <div class="skills-card ">
+                <img class="javaImg" src="Images/java.png" alt="html card image">
+
+            </div>
+            <div class="skills-card ">
+                <img class="mysqlImg" src="Images/mysql.png" alt="html card image">
+
+            </div>
+            <div class="skills-card ">
+                <img class="springbootImg" src="Images/springbootmjpeg.jpeg" alt="html card image">
+
+            </div>
+            <div class="skills-card ">
+                <img class="gitImg" src="Images/git.png" alt="html card image">
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
